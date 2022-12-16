@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Kumbh Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    width: 90%;    
+    margin: 0 auto;
+}
+
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+header.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+header nav ul  {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+header nav ul li a {
+    padding: 0 12px;
+    color: hsla(0, 0%, 0%, 0.538);
+
+
+   
+}
+
+header.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+header.right img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}hr {
+    margin: 0px auto;
+    width: 90%;
+    opacity: 0.3;  
+}
+
+main {
+    
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.image-container {
+    max-width: 100%;
+}
+
+.sub-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 25px;
+    width: 60%;
+}
+.main-image img {
+    width: 90%;
+}
+.sneaker {
+    display: flex;
+    gap: 40px;
+}
+
+
+nav {
+    margin-left: 30px;
+}
+
+
+.special{
+    border: 2px solid orangered;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-images img {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+.content {
+    margin-top: 60px;
+}
+
+ .content h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.content p {
+    opacity: 0.6;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.content span {
+    font-size: 11px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price span {
+    font-size: 15px;
+    background-color: antiquewhite;
+    padding: 2px 2px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+.price p {
+    margin-top: 7px;
+}
+.calc {
+    font-size: 15px;
+    display: flex;
+}
+
+
+
+.calc span {
+    color: orange;
+
+}
+
+.calc button {
+    border: none;
+    border-radius: 5px;
+    padding: 12px 50px;
+    color: white;
+    background-color: #fca605;
+}
+
